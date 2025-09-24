@@ -1,0 +1,4 @@
+
+  error: `migration:` is not a registered command 
+
+Did you mean [1m[35mmigration:run[39m[22m instead?

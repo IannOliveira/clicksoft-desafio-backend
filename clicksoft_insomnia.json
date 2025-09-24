@@ -1,0 +1,1384 @@
+{
+	"log": {
+		"version": "1.2",
+		"creator": {
+			"name": "Insomnia REST Client",
+			"version": "insomnia.desktop.app:v11.6.1"
+		},
+		"entries": [
+			{
+				"startedDateTime": "2025-09-23T23:51:05.295Z",
+				"time": 3.194,
+				"request": {
+					"method": "DELETE",
+					"url": "http://127.0.0.1:3333/salas/2",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Accept",
+							"value": "application/json"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": ""
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 204,
+					"statusText": "No Content",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Date",
+							"value": "Tue, 23 Sep 2025 23:34:44 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 0,
+						"mimeType": "",
+						"text": ""
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 3.194,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "DELETE /salas/:id"
+			},
+			{
+				"startedDateTime": "2025-09-23T23:51:05.295Z",
+				"time": 3.864,
+				"request": {
+					"method": "PUT",
+					"url": "http://127.0.0.1:3333/salas/2",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Accept",
+							"value": "application/json"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n  \"numero_sala\": \"101A\",\n  \"capacidade\": 30,\n  \"disponibilidade\": true\n}"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "155"
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 23 Sep 2025 23:33:33 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 155,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"id\":2,\"numero_sala\":\"101A\",\"capacidade\":30,\"disponibilidade\":true,\"professor_id\":2,\"created_at\":\"2025-09-23 20:31:28\",\"updated_at\":\"2025-09-23 20:33:33\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 3.864,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "PUT /salas/:id"
+			},
+			{
+				"startedDateTime": "2025-09-23T23:51:05.295Z",
+				"time": 3.59,
+				"request": {
+					"method": "GET",
+					"url": "http://127.0.0.1:3333/salas/2",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Accept",
+							"value": "application/json"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": ""
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "369"
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 23 Sep 2025 23:32:37 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 369,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"id\":2,\"numero_sala\":\"101\",\"capacidade\":30,\"disponibilidade\":1,\"professor_id\":2,\"created_at\":\"2025-09-23 20:31:28\",\"updated_at\":\"2025-09-23 20:31:28\",\"professor\":{\"id\":2,\"nome\":\"Iann Costa\",\"email\":\"IANN@examplde.com\",\"matricula\":\"123456d\",\"data_nascimento\":\"1985-07-20T03:00:00.000Z\",\"created_at\":\"2025-09-23 19:49:40\",\"updated_at\":\"2025-09-23 20:28:38\"},\"alunos\":[]}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 3.59,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "GET /salas/:id"
+			},
+			{
+				"startedDateTime": "2025-09-23T23:51:05.295Z",
+				"time": 5.125,
+				"request": {
+					"method": "POST",
+					"url": "http://127.0.0.1:3333/salas",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Accept",
+							"value": "application/json"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n  \"numero_sala\": \"101AA\",\n  \"capacidade\": 30,\n  \"disponibilidade\": true,\n  \"professor_id\": 2\n}"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 201,
+					"statusText": "Created",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "156"
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 23 Sep 2025 23:34:15 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 156,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"numero_sala\":\"101AA\",\"capacidade\":30,\"disponibilidade\":true,\"professor_id\":2,\"created_at\":\"2025-09-23 20:34:15\",\"updated_at\":\"2025-09-23 20:34:15\",\"id\":3}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 5.125,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "POST /salas"
+			},
+			{
+				"startedDateTime": "2025-09-23T23:51:05.295Z",
+				"time": 2.337,
+				"request": {
+					"method": "GET",
+					"url": "http://127.0.0.1:3333/salas",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Accept",
+							"value": "application/json"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": ""
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "2"
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 23 Sep 2025 23:31:17 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 2,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "[]"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 2.337,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "GET /salas"
+			},
+			{
+				"startedDateTime": "2025-09-23T23:51:05.295Z",
+				"time": 6.466,
+				"request": {
+					"method": "POST",
+					"url": "http://127.0.0.1:3333/alocacoes",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Accept",
+							"value": "application/json"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n  \"sala_id\": 1,\n  \"aluno_id\": 1,\n  \"professor_id\": 1\n}"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 201,
+					"statusText": "Created",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "39"
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 23 Sep 2025 23:39:25 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 39,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"message\":\"Aluno alocado com sucesso\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 6.466,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "POST /alocacoes"
+			},
+			{
+				"startedDateTime": "2025-09-23T23:51:05.295Z",
+				"time": 1.926,
+				"request": {
+					"method": "DELETE",
+					"url": "http://127.0.0.1:3333/alocacoes/",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Accept",
+							"value": "application/json"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n  \"sala_id\": 1,\n  \"aluno_id\": 1,\n  \"professor_id\": 1\n}"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 404,
+					"statusText": "Not Found",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "34"
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 23 Sep 2025 23:38:23 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 34,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"message\":\"Sala não encontrada\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 1.926,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "DELETE /alocacoes"
+			},
+			{
+				"startedDateTime": "2025-09-23T23:51:05.295Z",
+				"time": 2.82,
+				"request": {
+					"method": "GET",
+					"url": "http://127.0.0.1:3333/salas/3/alunos",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Accept",
+							"value": "application/json"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": ""
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "235"
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 23 Sep 2025 23:40:09 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 235,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "[{\"id\":1,\"nome\":\"Carlos Pereira\",\"email\":\"carlos@example.com\",\"matricula\":\"2025003\",\"data_nascimento\":\"1999-12-25T02:00:00.000Z\",\"created_at\":\"2025-09-23 19:50:01\",\"updated_at\":\"2025-09-23 19:50:01\",\"pivot\":{\"aluno_id\":1,\"sala_id\":3}}]"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 2.82,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "GET /salas/:id/alunos"
+			},
+			{
+				"startedDateTime": "2025-09-23T23:51:05.295Z",
+				"time": 2.956,
+				"request": {
+					"method": "GET",
+					"url": "http://127.0.0.1:3333/professores",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Accept",
+							"value": "application/json"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": ""
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "391"
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 23 Sep 2025 23:23:30 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 391,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "[{\"id\":1,\"nome\":\"Carlos Souza\",\"email\":\"carlos@example.com\",\"matricula\":\"P2025002\",\"data_nascimento\":\"1975-09-10T03:00:00.000Z\",\"created_at\":\"2025-09-23 19:49:05\",\"updated_at\":\"2025-09-23 19:49:05\"},{\"id\":2,\"nome\":\"Ana Souza\",\"email\":\"ana@example.com\",\"matricula\":\"P2025001\",\"data_nascimento\":\"1985-07-20T03:00:00.000Z\",\"created_at\":\"2025-09-23 19:49:40\",\"updated_at\":\"2025-09-23 19:49:40\"}]"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 2.956,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "GET /professores"
+			},
+			{
+				"startedDateTime": "2025-09-23T23:51:05.295Z",
+				"time": 4.2170000000000005,
+				"request": {
+					"method": "POST",
+					"url": "http://127.0.0.1:3333/professores",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Accept",
+							"value": "application/json"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n  \"nome\": \"Iann Costa\",\n  \"email\": \"IANN@example.com\",\n  \"matricula\": \"123456\",\n  \"data_nascimento\": \"1985-07-20\"\n}"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 201,
+					"statusText": "Created",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "177"
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 23 Sep 2025 23:24:36 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 177,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"nome\":\"Iann Costa\",\"email\":\"IANN@example.com\",\"matricula\":\"123456\",\"data_nascimento\":\"1985-07-20\",\"created_at\":\"2025-09-23 20:24:36\",\"updated_at\":\"2025-09-23 20:24:36\",\"id\":5}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 4.2170000000000005,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "POST /professores"
+			},
+			{
+				"startedDateTime": "2025-09-23T23:51:05.295Z",
+				"time": 1.657,
+				"request": {
+					"method": "GET",
+					"url": "http://127.0.0.1:3333/professores/2",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Accept",
+							"value": "application/json"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": ""
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "195"
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 23 Sep 2025 23:28:14 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 195,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"id\":2,\"nome\":\"Iann O Costa\",\"email\":\"IANN@example4.com\",\"matricula\":\"1234563\",\"data_nascimento\":\"1985-07-20T03:00:00.000Z\",\"created_at\":\"2025-09-23 19:49:40\",\"updated_at\":\"2025-09-23 20:27:59\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 1.657,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "GET /professores/:id"
+			},
+			{
+				"startedDateTime": "2025-09-23T23:51:05.295Z",
+				"time": 3.987,
+				"request": {
+					"method": "PUT",
+					"url": "http://127.0.0.1:3333/professores/2",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Accept",
+							"value": "application/json"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n  \"nome\": \"Iann Costa\",\n  \"email\": \"IANN@examplde.com\",\n  \"matricula\": \"123456d\",\n  \"data_nascimento\": \"1985-07-20\"\n}"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "179"
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 23 Sep 2025 23:28:38 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 179,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"id\":2,\"nome\":\"Iann Costa\",\"email\":\"IANN@examplde.com\",\"matricula\":\"123456d\",\"data_nascimento\":\"1985-07-20\",\"created_at\":\"2025-09-23 19:49:40\",\"updated_at\":\"2025-09-23 20:28:38\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 3.987,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "PUT /professores/:id"
+			},
+			{
+				"startedDateTime": "2025-09-23T23:51:05.295Z",
+				"time": 3.85,
+				"request": {
+					"method": "DELETE",
+					"url": "http://127.0.0.1:3333/professores/1",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Accept",
+							"value": "application/json"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": ""
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 204,
+					"statusText": "No Content",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Date",
+							"value": "Tue, 23 Sep 2025 23:26:54 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 0,
+						"mimeType": "",
+						"text": ""
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 3.85,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "DELETE /professores/:id"
+			},
+			{
+				"startedDateTime": "2025-09-23T23:51:05.295Z",
+				"time": 7.744,
+				"request": {
+					"method": "GET",
+					"url": "http://127.0.0.1:3333/alunos",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": ""
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "540"
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 23 Sep 2025 23:15:32 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 540,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "[{\"id\":1,\"nome\":\"Carlos Pereira\",\"email\":\"carlos@example.com\",\"matricula\":\"2025003\",\"data_nascimento\":\"1999-12-25T02:00:00.000Z\",\"created_at\":\"2025-09-23 19:50:01\",\"updated_at\":\"2025-09-23 19:50:01\"},{\"id\":2,\"nome\":\"\",\"email\":\"\",\"matricula\":\"\",\"data_nascimento\":\"0000-00-00\",\"created_at\":\"2025-09-23 20:09:09\",\"updated_at\":\"2025-09-23 20:09:09\"},{\"id\":7,\"nome\":\"João Silva\",\"email\":\"joao@example.com\",\"matricula\":\"2025001\",\"data_nascimento\":\"2000-05-12T03:00:00.000Z\",\"created_at\":\"2025-09-23 20:11:47\",\"updated_at\":\"2025-09-23 20:11:47\"}]"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 7.744,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "GET /alunos"
+			},
+			{
+				"startedDateTime": "2025-09-23T23:51:05.295Z",
+				"time": 3.07,
+				"request": {
+					"method": "POST",
+					"url": "http://127.0.0.1:3333/alunos",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Accept",
+							"value": "application/json"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n  \"nome\": \"Iann\",\n  \"email\": \"iann@gmail.com\",\n  \"matricula\": \"202500123\",\n  \"data_nascimento\": \"2000-05-12\"\n}"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 201,
+					"statusText": "Created",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "173"
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 23 Sep 2025 23:17:55 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 173,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"nome\":\"Iann\",\"email\":\"iann@gmail.com\",\"matricula\":\"202500123\",\"data_nascimento\":\"2000-05-12\",\"created_at\":\"2025-09-23 20:17:55\",\"updated_at\":\"2025-09-23 20:17:55\",\"id\":23}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 3.07,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "POST /alunos"
+			},
+			{
+				"startedDateTime": "2025-09-23T23:51:05.295Z",
+				"time": 2.457,
+				"request": {
+					"method": "GET",
+					"url": "http://127.0.0.1:3333/alunos/2",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Accept",
+							"value": "application/json"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": ""
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "145"
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 23 Sep 2025 23:19:40 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 145,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"id\":2,\"nome\":\"\",\"email\":\"\",\"matricula\":\"\",\"data_nascimento\":\"0000-00-00\",\"created_at\":\"2025-09-23 20:09:09\",\"updated_at\":\"2025-09-23 20:09:09\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 2.457,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "GET /alunos/:id"
+			},
+			{
+				"startedDateTime": "2025-09-23T23:51:05.295Z",
+				"time": 5.547,
+				"request": {
+					"method": "PUT",
+					"url": "http://127.0.0.1:3333/alunos/2",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Accept",
+							"value": "application/json"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n  \"nome\": \"Iann\",\n  \"email\": \"iann@gmail.comm\",\n  \"matricula\": \"2025001233\",\n  \"data_nascimento\": \"2000-05-12\"\n}"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "174"
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 23 Sep 2025 23:20:24 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 174,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"id\":2,\"nome\":\"Iann\",\"email\":\"iann@gmail.comm\",\"matricula\":\"2025001233\",\"data_nascimento\":\"2000-05-12\",\"created_at\":\"2025-09-23 20:09:09\",\"updated_at\":\"2025-09-23 20:20:24\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 5.547,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "PUT /alunos/:id"
+			},
+			{
+				"startedDateTime": "2025-09-23T23:51:05.295Z",
+				"time": 3.7039999999999997,
+				"request": {
+					"method": "DELETE",
+					"url": "http://127.0.0.1:3333/alunos/2",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Accept",
+							"value": "application/json"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": ""
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 204,
+					"statusText": "No Content",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Date",
+							"value": "Tue, 23 Sep 2025 23:21:02 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 0,
+						"mimeType": "",
+						"text": ""
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 3.7039999999999997,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "DELETE /alunos/:id"
+			},
+			{
+				"startedDateTime": "2025-09-23T23:51:05.295Z",
+				"time": 3.832,
+				"request": {
+					"method": "GET",
+					"url": "http://127.0.0.1:3333/alunos/1/salas",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Accept",
+							"value": "application/json"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": ""
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "85"
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 23 Sep 2025 23:21:52 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 85,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"aluno\":\"Carlos Pereira\",\"salas\":[{\"professor\":\"Carlos Souza\",\"numero_sala\":\"101\"}]}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 3.832,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "GET /alunos/:id/salas"
+			}
+		]
+	}
+}
